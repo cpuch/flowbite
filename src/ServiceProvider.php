@@ -2,6 +2,7 @@
 
 namespace Cpuch\Flowbite;
 
+use Cpuch\Flowbite\Console\Commands\InstallCommand;
 use Illuminate\Support\Facades\Blade;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
@@ -19,6 +20,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             $this->publishes([
                 __DIR__.'/../dist' => public_path('vendor/flowbite'),
             ], 'cpuch-flowbite-assets');
+
+            $this->commands([
+                InstallCommand::class,
+            ]);
         }
 
         $this->registerViews();
