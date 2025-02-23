@@ -1,6 +1,23 @@
+/* Border */
+.border-info {
+    @apply border border-blue-300;
+}
+
+.border-success {
+    @apply border border-green-300;
+}
+
+.border-warning {
+    @apply border border-yellow-300;
+}
+
+.border-error {
+    @apply border border-red-300;
+}
+
 /* Alerts */
 .alert {
-    @apply flex items-center p-4 mb-4 text-sm rounded-lg;
+    @apply flex items-center p-4 mb-4 text-base rounded-lg;
 }
 
 .alert-info {
