@@ -17,7 +17,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             ], 'cpuch-flowbite-views');
 
             $this->publishes([
-                __DIR__.'/../resources/assets' => public_path('vendor/flowbite'),
+                __DIR__.'/../dist' => public_path('vendor/flowbite'),
             ], 'cpuch-flowbite-assets');
         }
 
