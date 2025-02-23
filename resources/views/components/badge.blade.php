@@ -1,0 +1,1 @@
+{{-- resources/views/components/badge.blade.php --}}
