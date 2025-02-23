@@ -1,0 +1,17 @@
+{
+    "name": "cpuch-flowbite",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "mix",
+        "watch": "mix watch",
+        "hot": "mix watch --hot",
+        "build": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.49",
+        "mix-tailwindcss": "^1.3.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.85.0",
+        "sass-loader": "^16.0.5"
+    }
+}
